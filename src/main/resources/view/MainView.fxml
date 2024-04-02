@@ -17,7 +17,7 @@
       </Label>
       <HBox layoutX="53.0" layoutY="73.0" spacing="20.0">
          <children>
-            <TextField fx:id="txtSource" editable="false" prefHeight="24.0" prefWidth="337.0" />
+            <TextField fx:id="txtSource" editable="false" prefHeight="24.0" prefWidth="337.0" promptText="Select Source Directory" />
             <Button fx:id="btnSourceDirectory" mnemonicParsing="false" onAction="#btnSourceDirectoryOnAction" text="Directory" />
          </children>
       </HBox>
@@ -28,7 +28,7 @@
       </Label>
       <HBox layoutX="53.0" layoutY="141.0" spacing="20.0">
          <children>
-            <TextField fx:id="txtTarget" editable="false" prefHeight="24.0" prefWidth="337.0" />
+            <TextField fx:id="txtTarget" editable="false" prefHeight="24.0" prefWidth="337.0" promptText="Select Target Directory" />
             <Button fx:id="btnTargetDirectory" mnemonicParsing="false" onAction="#btnTargetDirectoryOnAction" text="Directory" />
          </children>
       </HBox>
