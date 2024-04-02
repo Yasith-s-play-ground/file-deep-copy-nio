@@ -147,8 +147,11 @@ public class MainViewController {
         txtTarget.clear();
         txtSource.clear();
         enableCopyButton();
+        lblStatus.textProperty().unbind();
+        pgbCopy.progressProperty().unbind();
         pgbCopy.progressProperty().setValue(0);
         lblStatus.setText("");
         lblProgress.setText("");
+
     }
 }
