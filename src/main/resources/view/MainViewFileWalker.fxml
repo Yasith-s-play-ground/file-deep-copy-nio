@@ -8,7 +8,7 @@
 <?import javafx.scene.layout.HBox?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane prefHeight="344.0" prefWidth="540.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lk.ijse.dep12.se.io.controller.MainViewController">
+<AnchorPane prefHeight="344.0" prefWidth="540.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lk.ijse.dep12.se.io.controller.MainViewFileWalkerController">
    <children>
       <Label layoutX="53.0" layoutY="49.0" text="Source">
          <font>
@@ -38,14 +38,14 @@
             <Button fx:id="btnReset" mnemonicParsing="false" onAction="#btnResetOnAction" text="RESET" />
          </children>
       </HBox>
-      <HBox layoutX="60.0" layoutY="261.0" prefHeight="18.0" prefWidth="430.0" spacing="10.0">
+      <HBox layoutX="60.0" layoutY="261.0" prefHeight="18.0" prefWidth="430.0" spacing="30.0">
          <children>
-            <Label fx:id="lblStatus" prefHeight="18.0" prefWidth="363.0" text="Copying......">
+            <Label fx:id="lblStatus" prefHeight="18.0" prefWidth="320.0" text="Copying......">
                <font>
-                  <Font size="12.0" />
+                  <Font size="14.0" />
                </font>
             </Label>
-            <Label fx:id="lblProgress" alignment="CENTER_RIGHT" prefHeight="18.0" prefWidth="68.0" text="100.00%">
+            <Label fx:id="lblProgress" alignment="CENTER_RIGHT" prefHeight="18.0" prefWidth="91.0" text="100.00%">
                <font>
                   <Font size="14.0" />
                </font>
