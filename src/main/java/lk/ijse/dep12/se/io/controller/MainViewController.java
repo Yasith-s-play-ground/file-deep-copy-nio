@@ -117,7 +117,7 @@ public class MainViewController {
                         }
                     }
                 }
-                updateMessage("Installation completed. Click to reset again!");
+                updateMessage("Copying completed. Click to reset again!");
                 return null;
             }
         };
